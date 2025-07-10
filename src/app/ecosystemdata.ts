@@ -34,7 +34,9 @@ export const ecosystemData: EcosystemCategory[] = [
       { name: "solana-agent-kit", description: "SDK for transaction-related operations.", tags: ["dApps"], repo: "https://github.com/sendaifun/solana-agent-kit" },
       { name: "solana-app-kit", description: "SDK for general Solana app development.", tags: ["dApps"], repo: "https://github.com/SendArcade/solana-app-kit" },
       { name: "Underdog API", description: "API for dynamic NFT integration.", tags: ["API", "dApps"], repo: "https://www.underdogprotocol.com/" },
-      { name: "GameShift API", description: "API for gaming integrations, including NFTs and marketplaces.", tags: ["API", "dApps", "Games"], repo: "https://docs.gameshift.dev/" }
+      { name: "GameShift API", description: "API for gaming integrations, including NFTs and marketplaces.", tags: ["API", "dApps", "Games"], repo: "https://docs.gameshift.dev/" },
+      { name: "umi", description: "Umi is a modular framework for building and using JavaScript clients for Solana programs. It provides a zero-dependency library that defines a set of core interfaces that libraries can rely on without being tied to a specific implementation.", tags: ["sdk", "nft", "metaplex"], repo: "https://github.com/metaplex-foundation/umi" },
+      {name: "kinobi", description:"Generate powerful clients for your Solana programs.Kinobi introduces a language-agnostic representation of Solana clients which can be composed of one or several programs. ", tags:["sdk", "metplex", "client-generation"], repo:"https://github.com/metaplex-foundation/kinobi"}
     ]
   },
   {
